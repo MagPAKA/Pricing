@@ -27,13 +27,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\HW_MC\FixedRateSwap.cpp">
-      <Filter>Source Files\Interest Rate</Filter>
-    </ClCompile>
     <ClCompile Include="BasisSwap.cpp">
-      <Filter>Source Files\Interest Rate</Filter>
-    </ClCompile>
-    <ClCompile Include="..\HW_MC\BermudanSwaption.cpp">
       <Filter>Source Files\Interest Rate</Filter>
     </ClCompile>
     <ClCompile Include="CDS.cpp">
@@ -47,6 +41,12 @@
     </ClCompile>
     <ClCompile Include="FxBarrierOption.cpp">
       <Filter>Source Files\Forex</Filter>
+    </ClCompile>
+    <ClCompile Include="BermudanSwaption.cpp">
+      <Filter>Source Files\Interest Rate</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedRateSwap.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +63,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FxBarrierOption.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BermudanSwaption.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedRateSwap.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

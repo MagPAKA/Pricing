@@ -123,14 +123,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\HW_MC\LongstaffSchwartz.cpp" />
-    <ClCompile Include="..\HW_MC\RandomGenerator.cpp" />
     <ClCompile Include="Integral.cpp" />
     <ClCompile Include="Interpolation.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\HW_MC\LongstaffSchwartz.hpp" />
-    <ClInclude Include="..\HW_MC\RandomGenerator.hpp" />
     <ClInclude Include="Integral.hpp" />
     <ClInclude Include="Interpolation.hpp" />
   </ItemGroup>

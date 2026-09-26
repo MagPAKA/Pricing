@@ -27,12 +27,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\HW_MC\LongstaffSchwartz.cpp">
-      <Filter>Source Files\MonteCarlo</Filter>
-    </ClCompile>
-    <ClCompile Include="..\HW_MC\RandomGenerator.cpp">
-      <Filter>Source Files\MonteCarlo</Filter>
-    </ClCompile>
     <ClCompile Include="Interpolation.cpp">
       <Filter>Source Files\Interpolation</Filter>
     </ClCompile>
@@ -41,12 +35,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\HW_MC\LongstaffSchwartz.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\HW_MC\RandomGenerator.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Interpolation.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>

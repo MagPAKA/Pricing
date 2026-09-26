@@ -123,10 +123,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\HW_MC\HullWhiteModel.cpp" />
+    <ClCompile Include="..\HW_MC\HullWhite1FModel.cpp" />
+    <ClCompile Include="Dupire.cpp" />
+    <ClCompile Include="HullWhite2FModel.cpp" />
+    <ClCompile Include="LGM1F.cpp" />
+    <ClCompile Include="LMM.cpp" />
+    <ClCompile Include="SABR.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\HW_MC\BermudanSwaption.hpp" />
+    <ClInclude Include="Dupire.hpp" />
+    <ClInclude Include="HullWhite2FModel.hpp" />
+    <ClInclude Include="LGM1F.hpp" />
+    <ClInclude Include="LMM.hpp" />
+    <ClInclude Include="SABR.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -123,17 +123,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\HW_MC\BermudanSwaption.cpp" />
-    <ClCompile Include="..\HW_MC\FixedRateSwap.cpp" />
     <ClCompile Include="BasisSwap.cpp" />
+    <ClCompile Include="BermudanSwaption.cpp" />
     <ClCompile Include="CDS.cpp" />
+    <ClCompile Include="FixedRateSwap.cpp" />
     <ClCompile Include="FxBarrierOption.cpp" />
     <ClCompile Include="NDF.cpp" />
     <ClCompile Include="XCCYSwap.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BasisSwap.hpp" />
+    <ClInclude Include="BermudanSwaption.hpp" />
     <ClInclude Include="CDS.hpp" />
+    <ClInclude Include="FixedRateSwap.hpp" />
     <ClInclude Include="FxBarrierOption.hpp" />
     <ClInclude Include="NDF.hpp" />
     <ClInclude Include="XCCYSwap.hpp" />
